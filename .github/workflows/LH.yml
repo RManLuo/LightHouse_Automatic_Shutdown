@@ -34,3 +34,4 @@ jobs:
         tgToken: ${{secrets.tgToken}}
       run: |
         python LH.py
+    - uses: gautamkrishnar/keepalive-workflow@master # using the workflow with default settings
